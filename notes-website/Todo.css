@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body {
+    padding: 10px;
+	background-image: url('images.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    float: center;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    margin-left: 33%;
+    margin-top: 5px;
+ }
+ h1{
+    color: rgb(0, 0, 0);
+ }
+ input{
+    width: 270px;
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid rgb(6, 145, 145);
+    outline: none;
+    font-size: 19px;
+ }
+ input::placeholder{
+    color: rgba(0,0,0, 0.4);
+    font-size: medium;
+ }
+ button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(76, 137, 180);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 20px;
+    font-size: 19px;
+ }
+ .text ul{
+    position: relative;
+    background-color: rgb(173, 211, 211);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(142, 171, 171) ;
+    font-size: 19px;
+    padding: 15px;
+    text-align: left;
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
