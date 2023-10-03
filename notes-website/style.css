@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+    * {
+      margin: 0
+    }
+
+    .cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+      background-color: rgba(0,0,0,0.2);
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    .myApp {
+      width: 60%;
+    }
+
+    @media (max-width:768px) {
+      .myApp {
+        width: 90%;
+      }
+    }
+
+    .myApp h1 {
+      color: white;
+      font-size: 40px;
+      padding: 10px 0;
+      text-align: center;
+      border-radius: .5rem .5rem 0 0;
+      background-color: #3547d2;
+      font-family: "Rajdhani", sans-serif;
+    }
+
+    .myApp form {
+      display: flex;
+      width: 100%;
+      background-color: #5b90bc;
+    }
+
+    .myApp form input {
+      border: none;
+      background-color: #a5cae9;
+      font-size: 18px;
+      color: white;
+      padding: 10px;
+      width: 90%;
+    }
+
+    .myApp form button {
+      border: none;
+      color: white;
+      background-color: #7e98da;
+      font-size: 25px;
+      font-weight: 600;
+      height: 42px;
+      width: 10%;
+    }
+
+    .myApp ul {
+      list-style: none;
+      color: #b54040;
+      padding: 0;
+    }
+
+    .myApp ul li {
+      padding: 10px;
+      background-color: #5b90bc;
+      border-bottom: 1px solid #5b90bc;
+      border-radius: 0 0 .5rem .5rem;
+    }
+
+    .check {
+      width: 0.8em;
+      height: 0.8em;
+      cursor: pointer;
+      border-radius: 50%;
+      background-color: white;
+      border: 1px solid rgb(255, 255, 255);
+      -webkit-appearance: none;
+    }
+
+    .check:checked {
+      background-color: #279e86;
+    }
+
+    .task {
+      font-size: 18px;
+      padding: 0 10px;
+      width: fit-content;
+      background: transparent;
+      border: none;
+      color: #fff;
+    }
+
+    .task:focus {
+      outline: none;
+    }
+
+    .myApp ul li i {
+      float: right;
+      cursor: pointer;
+    }
+
+    .myApp ul li i:hover {
+      color: rgb(255, 82, 82);
+    }
+
+    .completed {
+      color: rgba(88, 47, 47, 0.8);
+      text-decoration: line-through;
+    }
