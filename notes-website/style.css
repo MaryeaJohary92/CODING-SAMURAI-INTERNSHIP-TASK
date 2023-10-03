@@ -3,13 +3,17 @@
     * {
       margin: 0
     }
-
+body{
+  background-image: url('images.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
     .cont {
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-top: 50px;
-      background-color: rgba(0,0,0,0.2);
       height: 100vh;
       font-family: sans-serif;
     }
